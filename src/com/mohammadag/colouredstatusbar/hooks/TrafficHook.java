@@ -31,6 +31,11 @@ public class TrafficHook {
 
     public TrafficHook(ColourChangerMod instance, ClassLoader classLoader) {
         mInstance = instance;
+
+		/* HTC Specific hook */
+        if (!android.os.Build.MANUFACTURER.toLowerCase().contains("htc"))
+            return;
+
         doHooks(classLoader);
     }
 
