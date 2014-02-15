@@ -15,8 +15,9 @@ public class Common {
 	public static final String[] SIGNAL_CLUSTER_ICON_NAMES = {
 		"mMobile", "mMobileActivity", "mMobileType",
 		"mMobileRoaming", "mWifi", "mWifiActivity",
-		"mEthernet", "mEthernetActivity", "mAirplane"	
+		"mEthernet", "mEthernetActivity", "mAirplane", "mPhoneSignal"
 	};
+    public static final String[] TRAFFIC_TEXT_NAMES = {"mSpeed", "mSuffix"};
 
 	public static final String INTENT_SAMSUNG_SVIEW_COVER = "com.samsung.cover.OPEN";
 	public static final String KEY_SVIEW_COVER_OPENED = "coverOpen";
